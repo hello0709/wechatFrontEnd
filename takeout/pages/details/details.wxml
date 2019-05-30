@@ -1,0 +1,29 @@
+<form bindsubmit="formSubmit">
+
+  <view class='weui-info'>
+    <view class="weui-label">商品信息</view>
+    <input name="good_info" class="weui-input" placeholder="请输入商品名称" />
+  </view>
+
+  <view class="weui-cells">
+    <view class="weui-cell__hd">购买地址</view>
+    <view class="weui-cell__ft  weui-cell__ft_in-access">
+      <input name="buyaddress" placeholder='请输入购买地址'></input>
+    </view>
+  </view>
+
+  <view class='weui-receive'>
+    <view class="weui-cell__hd">收货地址</view>
+    <input name="receiveaddress" placeholder='请输入收货地址'></input>
+  </view>
+
+  <view class="weui-cell_input">
+    <view class="weui-cell__hd">联系方式</view>
+    <input name="phonenumber" placeholder='请输入手机号'></input>
+  </view>
+
+  <view class="weui-btn-area">
+    <button class="weui-btn" type="primary" formType="submit">呼叫跑腿</button>
+  </view>
+
+</form>

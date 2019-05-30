@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/details/details",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test",
+    "pages/send/index",
+    "pages/my/index"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#25a1fa",
+    "navigationBarTitleText": "代跑腿",
+    "navigationBarTextStyle": "black"
+  },
+ "networkTimeout": {
+  "request": 10000,
+  "connectSocket": 10000,
+  "uploadFile": 10000,
+  "downloadFile": 10000
+},
+"tabBar": {
+  "color": "#7A7E83",
+  "selectedColor": "#25a1fa",
+  "borderStyle": "black",
+  "backgroundColor": "#ffffff",
+  "list": [
+    {
+      "pagePath": "pages/details/details",
+      "iconPath": "assets/images/Tabbar_Buy@2x.png",
+      "selectedIconPath": "assets/images/Tabbar_Buy_Pre@2x.png",
+      "text": "代我买"
+    },
+    {
+      "pagePath": "pages/send/index",
+      "iconPath": "assets/images/Tabbar_Tran@2x.png",
+      "selectedIconPath": "assets/images/Tabbar_Tran_Pre@2x.png",
+      "text": "代我送"
+    },
+    {
+      "pagePath": "pages/my/index",
+      "iconPath": "assets/images/Tabbar_My@2x.png",
+      "selectedIconPath": "assets/images/Tabbar_My_s@2x.png",
+      "text": "我的"
+    }
+  
+  ]
+},
+"debug": false,
+  "sitemapLocation": "sitemap.json"
+}

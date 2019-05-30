@@ -1,0 +1,20 @@
+/* pages/details/details.wxss */
+.weui-btn-area{
+  margin: 15px;
+}
+.weui-cells{
+  margin: 15px;
+}
+.weui-info{
+  margin: 15px;
+}
+.weui-cell_input{
+  margin: 15px;
+}
+.weui-receive{
+  margin: 15px;
+}
+.weui-myinfo-area{
+  border-style:solid;
+  border-bottom:thick dotted #ff0000;
+}

@@ -1,0 +1,6 @@
+<!--pages/test/test.wxml-->
+<text>pages/test/test.wxml</text>
+<button bindtap='button'>点击发起请求</button>
+<view wx:for="{{list}}">
+    姓名：{{item}}
+  </view>

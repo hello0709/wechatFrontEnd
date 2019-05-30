@@ -1,0 +1,15 @@
+<!--page/my/index.wxml-->
+<view class="my-info">
+  <image src="{{userInfo.avatarUrl ? userInfo.avatarUrl : 'default.png' }}" class="my-info__avatar"></image>
+  <view class="my-info__name">{{userInfo.nickName ? userInfo.nickName : '未知' }}</view>
+</view>
+<view class="weui-cells">
+  <navigator url='../order/order' class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">我的订单</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+</view>
+
+<view class='weui-myinfo-area'>
+<view class='weui-myinfo'>个人资料</view>
+</view>
